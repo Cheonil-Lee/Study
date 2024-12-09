@@ -254,6 +254,7 @@ for result in results:
 ![스크린샷 2024-12-09 170555](https://github.com/user-attachments/assets/617b9dd5-a0c6-479f-9dba-47dd96966274)
 - **YOLOv8_Blink02_Local.ipynb** 위치
 
+
 ![스크린샷 2024-12-09 170546](https://github.com/user-attachments/assets/908a5316-dd80-4625-a2be-330c8339c0b6)
 - **data.yaml** 위치 
 
