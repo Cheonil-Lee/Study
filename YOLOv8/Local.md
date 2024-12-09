@@ -253,9 +253,9 @@ for result in results:
 
 ![image](https://github.com/user-attachments/assets/24879d28-8a33-4983-a408-a0fc9e33ddd3)
 
-- **YOLOv8_Blink02_Local.ipynb** 위치   
+- **YOLOv8_Blink02_Local.ipynb** 위치 
 
-
+         
 ![image](https://github.com/user-attachments/assets/2b34fe03-7f02-425d-9813-fce8f68f7fae)
 
 - **data.yaml** 위치 
