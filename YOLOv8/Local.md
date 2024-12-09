@@ -89,3 +89,64 @@ ultralytics.checks()
 - CPU가 출력되고 있기에 GPU로 바꿔야 함
 
 ## YOLOv8 GPU 구성
+- 아나콘다 창에 **nvidia-smi** 입력하여 버전 확인
+```
+nvidia-smi
+```
+![스크린샷 2024-12-06 174357](https://github.com/user-attachments/assets/4a04f2d0-7f66-4059-ad0a-bf057d923eec)
+
+## pytorch 다운로드
+<https://pytorch.org/get-started/locally/>
+![스크린샷 2024-12-06 174430](https://github.com/user-attachments/assets/15b8c2fb-8c01-4b17-b837-9945a63a7f6e)
+
+pytorch설치코드
+```
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+## cudatoolkit설치
+```
+conda install cudatoolkit
+```
+
+## 환경 설치 확인
+![스크린샷 2024-12-06 174626](https://github.com/user-attachments/assets/ee6ce525-764f-4e83-addc-40788b0b799b)
+
+```
+import torch
+torch.cuda.is_available()
+```
+
+## 오류 해결 코드
+```
+pip install --upgrade ultralytics
+```
+
+```
+pip install numpy --upgrade
+```
+
+```
+pip uninstall tensorflow-intel
+```
+
+# YOLOv8 Custom Dataset 실습
+## Roboflow Custom Dataset 로컬에 다운로드
+- Notebook이 실행되고 있는 현재 작업 디렉토리에 저장
+- 데이터셋 다운로드 및 저장 경로 지정 
+save_path = "/path/to/your/directory"
+dataset = version.download("yolov8", path=save_path)
+
+```
+from roboflow import Roboflow
+rf = Roboflow(api_key="JAmPbWPQA2CAtDhQk0Ef")
+project = rf.workspace("humantest").project("yolov8_blink02")
+version = project.version(1)
+dataset = version.download("yolov8")
+```
+![스크린샷 2024-12-06 180316](https://github.com/user-attachments/assets/9edfeb26-c6ab-4749-a4e7-ddcbf593122b)
+
+## 주어진 경로의 data.yaml 파일 내용 확인
+
+
+
