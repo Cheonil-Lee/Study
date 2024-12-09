@@ -110,12 +110,11 @@ conda install cudatoolkit
 ```
 
 ## 환경 설치 확인
-![스크린샷 2024-12-06 174626](https://github.com/user-attachments/assets/ee6ce525-764f-4e83-addc-40788b0b799b)
-
 ```
 import torch
 torch.cuda.is_available()
 ```
+![스크린샷 2024-12-06 174626](https://github.com/user-attachments/assets/ee6ce525-764f-4e83-addc-40788b0b799b)
 
 ## 오류 해결 코드
 ```
