@@ -146,6 +146,69 @@ dataset = version.download("yolov8")
 ![스크린샷 2024-12-06 180316](https://github.com/user-attachments/assets/9edfeb26-c6ab-4749-a4e7-ddcbf593122b)
 
 ## 주어진 경로의 data.yaml 파일 내용 확인
+```
+# 파일 경로 설정, 상대 경로 복사
+file_path = 'yolov8_Blink02-1\data.yaml'
+
+# 파일 내용 읽기 및 출력
+with open(file_path, 'r') as file:
+    content = file.read()
+    print(content)
+```
+![스크린샷 2024-12-06 180348](https://github.com/user-attachments/assets/5386a5b7-b509-4ab0-8e8c-6a2e9345dd2f)
+
+## 커스텀 데이터에 맞는 YAML 파일 만들기
+```
+import yaml
+
+data = { 'train' : 'yolov8_Blink02-1/train/images',
+        'val' : 'yolov8_Blink02-1/valid/images', # Make sure this path is correct
+         'test' : 'yolov8_Blink02-1/test/images',
+         'names' : ['Blink', 'CAR', 'Truck'],
+         'nc': 3}
+
+with open('yolov8_Blink02-1/data.yaml', 'w') as f:
+    yaml.dump(data, f)
+```
+
+## Install YOLOv8
+
+```
+import ultralytics
+
+ultralytics.checks()
+```
+![스크린샷 2024-12-06 181512](https://github.com/user-attachments/assets/0677ec9e-89a3-406f-899f-b1270cdb93ec)
+
+## Load a pre-trained model
+```
+from ultralytics import YOLO
+
+model = YOLO('yolov8n.pt')
+```
+
+```
+print(type(model.names),len(model.names))
+
+print(model.names)
+```
+![스크린샷 2024-12-06 181538](https://github.com/user-attachments/assets/cdeeaf8e-1c18-4332-98ac-1a3f05e463f0)
 
 
+##  YOLOv8 커스텀 데이터 학습하기
+```
+model.train(data='yolov8_Blink02-1\data.yaml',epochs=100, patience = 32, imgsz=416),
+```
+![스크린샷 2024-12-06 181628](https://github.com/user-attachments/assets/c2ee5001-2947-4a28-8e51-2b64157c4648)
 
+
+![스크린샷 2024-12-06 181645](https://github.com/user-attachments/assets/15747d21-1908-44b3-9e93-2ce2a4a0a52d)
+
+##  학습된 YOLOv8 이용해서 테스트 이미지 예측
+```
+# train2
+results = model.predict(source='yolov8_Blink02-1/test/images', save=True)
+```
+![스크린샷 2024-12-06 181712](https://github.com/user-attachments/assets/1968ee7d-94a2-4853-a887-1dbc8997a1b4)
+
+## 테스트 이미지 제공하여 결과 확인
