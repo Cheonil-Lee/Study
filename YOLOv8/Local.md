@@ -249,7 +249,11 @@ for result in results:
 ![스크린샷 2024-12-06 181912](https://github.com/user-attachments/assets/4fe665a8-c8c5-4424-a730-124f63883bdf)
 
 
+### 오류 해결 폴더 구조
 
+![스크린샷 2024-12-09 170555](https://github.com/user-attachments/assets/617b9dd5-a0c6-479f-9dba-47dd96966274)
+
+![스크린샷 2024-12-09 170546](https://github.com/user-attachments/assets/908a5316-dd80-4625-a2be-330c8339c0b6)
 
 
 
