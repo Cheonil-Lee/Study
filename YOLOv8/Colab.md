@@ -132,6 +132,14 @@ shutil.copytree(source_folder3, destination_train4)
 import shutil
 ```
 
+## 결과
+
+![Uploading 194556.jpg…]()
+**train3**
+
+![195111](https://github.com/user-attachments/assets/f72f629c-ab93-410b-b8dc-50a052a3cb4b)
+**train4**
+
 
 
 
