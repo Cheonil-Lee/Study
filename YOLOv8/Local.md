@@ -212,3 +212,44 @@ results = model.predict(source='yolov8_Blink02-1/test/images', save=True)
 ![스크린샷 2024-12-06 181712](https://github.com/user-attachments/assets/1968ee7d-94a2-4853-a887-1dbc8997a1b4)
 
 ## 테스트 이미지 제공하여 결과 확인
+```
+# train3
+# 새로운 이미지 경로 설정
+new_image_path = '194556.png'  # 여기에 이미지 경로를 입력하세요
+
+# 이미지에서 사람 탐지
+results = model.predict(source=new_image_path, save=True)
+
+# 결과 시각화
+for result in results:
+    result.plot()  # 탐지된 결과를 시각화합니다.
+
+```
+![스크린샷 2024-12-06 181809](https://github.com/user-attachments/assets/802c14a1-4518-43cb-ba47-ddf7e5a71dde)
+**train93**
+
+![스크린샷 2024-12-06 181851](https://github.com/user-attachments/assets/94219ec6-4cc6-4b11-ba4d-14e822bf681a)
+
+
+```
+# train4
+# 새로운 이미지 경로 설정
+new_image_path = '195111.png'  # 여기에 이미지 경로를 입력하세요
+
+# 이미지에서 사람 탐지
+results = model.predict(source=new_image_path, save=True)
+
+# 결과 시각화
+for result in results:
+    result.plot()  # 탐지된 결과를 시각화합니다.
+```
+![스크린샷 2024-12-06 181816](https://github.com/user-attachments/assets/13848a32-e235-472a-98f2-fe4be4482925)
+**train94**
+
+![스크린샷 2024-12-06 181912](https://github.com/user-attachments/assets/4fe665a8-c8c5-4424-a730-124f63883bdf)
+
+
+
+
+
+
