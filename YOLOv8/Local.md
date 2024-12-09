@@ -47,18 +47,18 @@ deviceQuery.exe
 # YOLOv8 설치
 - python → 3.10.15
 - ultralytics → 8.3.43
-- 
+  
 ## 가상환경 생성
- ``` conda create -n loY3 python= 3.10.15 ``` 
+``` conda create -n loY3 python= 3.10.15``` 
 
-conda active loY3
+``` conda active loY3``` 
 
-pip install ipykernel
+``` pip install ipykernel``` 
 
-pip install jupyter notebook
+``` pip install jupyter notebook``` 
 
-python -m ipykernel install —user —name loY2 —display-name “ loY3”
+``` python -m ipykernel install —user —name loY2 —display-name “ loY3”``` 
 
-pip install ultralytics
+``` pip install ultralytics``` 
 
-pip install roboflow
+``` pip install roboflow``` 
