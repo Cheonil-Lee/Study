@@ -76,3 +76,16 @@ pip install ultralytics
 ```
 pip install roboflow
 ``` 
+## 설치 확인
+
+```
+from IPython import display
+display.clear_output()
+
+import ultralytics
+ultralytics.checks()
+``` 
+![스크린샷 2024-12-06 174204](https://github.com/user-attachments/assets/834ff3f1-0009-40ff-8e73-7298daa5a56e)
+- CPU가 출력되고 있기에 GPU로 바꿔야 함
+
+## YOLOv8 GPU 구성
