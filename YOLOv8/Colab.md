@@ -109,7 +109,7 @@ for result in results:
     result.plot()  # 탐지된 결과를 시각화합니다.
 
 ```
-## 구글 드라이브에 결과 이미지 저장
+## Google Drive 폴더에 결과 이미지 저장
 ```
 import shutil
 
