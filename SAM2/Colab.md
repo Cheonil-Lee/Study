@@ -490,7 +490,6 @@ for image, points, labels, masks in zip(img_batch, pts_batch, labels_batch, best
 
 ![image 14](https://github.com/user-attachments/assets/3fb51eee-e44d-4b93-a4a0-5f53a6347d87)
 
-![image](https://github.com/user-attachments/assets/8c96b912-d1cd-44b4-ac76-8e0246cfd7c7)
 
 
 ## 결론
