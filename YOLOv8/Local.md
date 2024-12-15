@@ -138,7 +138,7 @@ dataset = version.download("yolov8", path=save_path)
 
 ```
 from roboflow import Roboflow
-rf = Roboflow(api_key="JAmPbWPQA2CAtDhQk0Ef")
+rf = Roboflow(api_key="**********")
 project = rf.workspace("humantest").project("yolov8_blink02")
 version = project.version(1)
 dataset = version.download("yolov8")
