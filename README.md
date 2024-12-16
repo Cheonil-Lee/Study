@@ -1,5 +1,7 @@
 # Study
 ## Yolov8
+[https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8](https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8)
+
 YOLOv8_Blink02
 1. '자동차(CAR)'와 '자동차 신호등(Blink)'을 구별하는 YOLOv8 
 2. Colab과 Local에서 실습함
@@ -8,12 +10,16 @@ YOLOv8_Blink02
 ![195111](https://github.com/user-attachments/assets/d78fc904-692f-47c4-8166-b5e28666e293)
 
 ## SAM2
+https://github.com/Cheonil-Lee/Study/tree/main/SAM2
+
 SAM2를 사용하여 사람 mask 추출하기
 - Colab, Local에서 실습
 
 ![image](https://github.com/user-attachments/assets/182e2d71-969d-4038-a6da-f128471a4554)
 
 ## Yolov8 + SAM2
+https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8nSAM2
+
 - YOLOv8로 바운딩 박스 -> 바운딩 박스의 가운데 점(Point) 찾기
 - 찾은 point를 SAM2에 활용하여 mask 생성 
 
