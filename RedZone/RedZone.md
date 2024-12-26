@@ -1,5 +1,5 @@
 # YOLOv8 Red_Zone 동영상_redZone2(완)
-Dataset: https://www.kaggle.com/datasets/snehilsanyal/construction-site-safety-image-dataset-roboflow
+Dataset: https://www.kaggle.com/datasets/snehilsanyal/construction-site-safety-image-dataset-roboflow        
 Code: https://www.kaggle.com/code/hinepo/yolov8-inference-for-red-zone-application
 
 pillow 절대 설치하지 말기
