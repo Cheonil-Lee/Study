@@ -30,6 +30,7 @@ https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8nSAM2/Local.md
 ![image 12](https://github.com/user-attachments/assets/84ce8165-86af-46a7-9774-9411e00020a7)
 
 ## YOLOv8 Red_Zone 동영상_redZone2
+https://github.com/Cheonil-Lee/Study/blob/main/RedZone/RedZone.md
 1. 'Hardhat', 'NO-Hardhat', 'NO-Safety Vest', 'Person', 'Safety Vest'을 구별하는 YOLOv8 
 2. 동영상으로 구분      
       
