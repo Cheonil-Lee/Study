@@ -4,5 +4,6 @@
 
    ```
    img = results[0].plot(line_width=2, font_size=10, pil=True)
-4. 동영상으로 저장하여 압축 가능함  
-AONA Drive 저장됨
+4. 동영상으로 저장하여 압축 가능함
+
+- AONA Drive 저장됨
