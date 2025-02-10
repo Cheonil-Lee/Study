@@ -1,6 +1,6 @@
 # Study
 ## Yolov8
-https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8/Local.md
+[https://github.com/Cheonil-Lee/Study/tree/main/YOLOv8/Local.md](https://github.com/Cheonil-Lee/Study/blob/main/YOLOv8/Blink/Local.md)
 
 YOLOv8_Blink02
 1. '자동차(CAR)'와 '자동차 신호등(Blink)'을 구별하는 YOLOv8 
